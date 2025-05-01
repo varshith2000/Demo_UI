@@ -1,0 +1,24 @@
+.wastage-fields {
+  margin: 10px 0;
+  width: 100%;
+}
+.wastage-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  background: #f1f5f9;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  padding: 6px 10px;
+}
+.wastage-row input, .wastage-row select {
+  margin-right: 6px;
+  border-radius: 5px;
+  border: 1px solid #cbd5e1;
+  padding: 4px 8px;
+  font-size: 1rem;
+}
+.wastage-row input:focus, .wastage-row select:focus {
+  border: 1.5px solid #2563eb;
+  outline: none;
+}

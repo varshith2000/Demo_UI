@@ -1,0 +1,15 @@
+.goods-dropdown {
+  min-width: 140px;
+  margin-right: 8px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+  background: #f8fafc;
+  font-size: 1rem;
+  color: #1e293b;
+  transition: border 0.2s;
+}
+.goods-dropdown:focus {
+  border: 1.5px solid #2563eb;
+  outline: none;
+}
